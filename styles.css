@@ -19,6 +19,7 @@ header h1 {
 
 main {
     padding: 2em;
+    margin-bottom: 4em; /* Ajustez cette valeur en fonction de la hauteur de votre pied de page */
 }
 
 section {
@@ -63,6 +64,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 3em; /* Ajustez cette valeur en fonction de la hauteur réelle de votre pied de page */
 }
 
 a {
