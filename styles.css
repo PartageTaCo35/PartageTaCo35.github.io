@@ -65,6 +65,7 @@ section {
     height: auto;
     display: block;
     border-radius: 4px;
+    border: 2px solid #000; /* Ajoute un trait noir de 2 pixels autour de l'image */
 }
 
 .photo-gallery figcaption {
@@ -89,6 +90,7 @@ section {
     height: auto;
     display: block;
     border-radius: 4px;
+    border: 2px solid #000; /* Ajoute un trait noir de 2 pixels autour de l'image */
 }
 .photo-nous figcaption {
     text-align: center;
