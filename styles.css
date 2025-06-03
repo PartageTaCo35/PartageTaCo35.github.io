@@ -98,11 +98,36 @@ section {
     font-size: 0.9em;
     color: #555;
 }
-.photo-gallery video {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+
+
+.video-gallery {
     margin-top: 1em;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-item video {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    border-radius: 4px;
+}
+
+.video-item h3 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    color: #333;
 }
 
 footer {
