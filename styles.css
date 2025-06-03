@@ -61,10 +61,11 @@ section {
     flex: 1 1 calc(45% - 2em);
     margin: 0;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
     overflow: hidden;
+    padding: 0.5em;
     box-sizing: border-box;
 }
-
 
 .photo-gallery figcaption {
     text-align: center;
