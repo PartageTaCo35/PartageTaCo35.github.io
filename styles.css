@@ -109,16 +109,19 @@ section {
     justify-content: space-around;
     gap: 1em;
     margin-top: 1em;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
 }
 
 .video-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 1 300px; /* Permet aux éléments de s'ajuster et de passer à la ligne si nécessaire */
+    min-width: 250px; /* Largeur minimale pour chaque vidéo */
 }
 
 .video-item video {
-    width: 300px; /* Ajustez la largeur selon vos besoins */
+    width: 100%; /* Utilise toute la largeur disponible */
     height: auto;
     border-radius: 4px;
 }
@@ -129,6 +132,19 @@ section {
     font-size: 1em;
     color: #333;
 }
+
+/* Media query pour les petits écrans comme les téléphones */
+@media (max-width: 600px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-item {
+        margin-bottom: 1em;
+    }
+}
+
 
 footer {
     background-color: #333;
