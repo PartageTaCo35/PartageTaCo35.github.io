@@ -35,7 +35,6 @@ main {
 }
 
 section {
-    background-color: white;
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,7 +54,6 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    background: white;
     padding: 0.5em;
     box-sizing: border-box;
 }
